@@ -2,15 +2,7 @@
 
 **Basin-Conditioned Selective State Space Model for Daily Rainfall-Runoff Simulation**
 
-BC-SSM represents catchment attributes as a basin embedding that jointly
-conditions selective state dynamics and the final discharge readout.
 
-- **Basin-conditioned dynamics:** daily features and the basin embedding
-  jointly determine the update step, input modulation, state emission, and gate.
-- **Stable parameterization:** positive decay rates and bounded modulation
-  govern the diagonal state recurrence, computed with a parallel scan.
-- **Conditioned readout:** basin-dependent FiLM transforms the temporally
-  pooled representation before the scalar discharge prediction.
 
 ## Configurations
 
